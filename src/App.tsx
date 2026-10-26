@@ -31,7 +31,8 @@ function App() {
 
         <section className="newsletter">
           <h2 className="small-title">Reste informé</h2>
-          <input type="email" placeholder="ton@email.fr" />
+          <label htmlFor="newsletter-email">Ton adresse e-mail</label>
+          <input id="newsletter-email" type="email" placeholder="ton@email.fr" />
           <button type="button" className="submit-btn" onClick={() => alert('Inscription envoyée')}>
             S'inscrire
           </button>
