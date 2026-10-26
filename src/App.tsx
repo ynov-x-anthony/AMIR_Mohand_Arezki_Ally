@@ -15,30 +15,30 @@ function App() {
         </nav>
       </header>
 
-      <div className="main">
-        <div className="article">
+      <main className="main">
+        <article className="article">
           <div className="title">Pourquoi apprendre TypeScript en 2026</div>
           <div className="meta">Publié le 3 mars 2026</div>
           <div className="small-title">Un typage qui rassure</div>
           <p>TypeScript attrape une classe entière de bugs avant même d'exécuter le code...</p>
           <div className="small-title">Un écosystème mature</div>
           <p>La quasi-totalité des librairies JS fournissent désormais leurs types...</p>
-        </div>
+        </article>
 
         <div className="like-btn" onClick={() => alert("Merci pour le like !")}>
           👍 J'aime cet article
         </div>
 
-        <div className="newsletter">
+        <section className="newsletter">
           <div className="small-title">Reste informé</div>
           <input type="email" placeholder="ton@email.fr" />
           <div className="submit-btn" onClick={() => alert('Inscription envoyée')}>
             S'inscrire
           </div>
-        </div>
-      </div>
+        </section>
+      </main>
 
-      <div className="footer">© 2026 DevBlog</div>
+      <footer className="footer">© 2026 DevBlog</footer>
     </div>
   )
 }
