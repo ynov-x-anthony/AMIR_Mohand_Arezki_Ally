@@ -1,7 +1,8 @@
 .header { display: flex; justify-content: space-between; align-items: center; padding: 1rem 0; border-bottom: 1px solid #eee; }
 .logo { font-weight: 700; font-size: 1.2rem; }
 .nav { display: flex; gap: 1.2rem; }
-.nav-link { cursor: pointer; color: #333; }
+.nav-link { color: #333; text-decoration: none; }
+.nav-link:hover, .nav-link:focus-visible { text-decoration: underline; }
 .article { margin: 2rem 0; }
 .title { font-size: 1.8rem; font-weight: 700; margin-bottom: .3rem; }
 .meta { color: #777; font-size: .85rem; margin-bottom: 1rem; }

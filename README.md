@@ -5,7 +5,7 @@ de penser à ARIA (prochaine quête), répare la base : la sémantique.
 
 ## Checklist à cocher
 
-- [ ] En-tête structuré avec `<header>`/`<nav>`, liens de nav en vrais `<a>`
+- [x] En-tête structuré avec `<header>`/`<nav>`, liens de nav en vrais `<a>`
 - [ ] `<main>` autour du contenu principal, `<footer>` en bas de page
 - [ ] Un seul `<h1>` par page, puis une hiérarchie propre (`h2` pour les sous-titres de section, pas de saut de niveau)
 - [ ] Le bouton "J'aime" et "S'inscrire" sont de vrais `<button>` (pas des `<div onClick>`)

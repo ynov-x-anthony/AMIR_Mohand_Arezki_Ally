@@ -6,14 +6,14 @@ import './App.css'
 function App() {
   return (
     <div className="page">
-      <div className="header">
+      <header className="header">
         <div className="logo">DevBlog</div>
-        <div className="nav">
-          <div className="nav-link">Accueil</div>
-          <div className="nav-link">Articles</div>
-          <div className="nav-link">Contact</div>
-        </div>
-      </div>
+        <nav className="nav" aria-label="Navigation principale">
+          <a className="nav-link" href="/">Accueil</a>
+          <a className="nav-link" href="/articles">Articles</a>
+          <a className="nav-link" href="/contact">Contact</a>
+        </nav>
+      </header>
 
       <div className="main">
         <div className="article">
