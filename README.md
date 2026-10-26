@@ -8,7 +8,7 @@ de penser à ARIA (prochaine quête), répare la base : la sémantique.
 - [x] En-tête structuré avec `<header>`/`<nav>`, liens de nav en vrais `<a>`
 - [x] `<main>` autour du contenu principal, `<footer>` en bas de page
 - [x] Un seul `<h1>` par page, puis une hiérarchie propre (`h2` pour les sous-titres de section, pas de saut de niveau)
-- [ ] Le bouton "J'aime" et "S'inscrire" sont de vrais `<button>` (pas des `<div onClick>`)
+- [x] Le bouton "J'aime" et "S'inscrire" sont de vrais `<button>` (pas des `<div onClick>`)
 - [ ] Le champ email a un vrai `<label>` associé (pas juste un `placeholder`)
 
 ## Démarrer

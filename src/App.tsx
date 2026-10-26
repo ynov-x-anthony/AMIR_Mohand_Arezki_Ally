@@ -25,16 +25,16 @@ function App() {
           <p>La quasi-totalité des librairies JS fournissent désormais leurs types...</p>
         </article>
 
-        <div className="like-btn" onClick={() => alert("Merci pour le like !")}>
+        <button type="button" className="like-btn" onClick={() => alert("Merci pour le like !")}>
           👍 J'aime cet article
-        </div>
+        </button>
 
         <section className="newsletter">
           <h2 className="small-title">Reste informé</h2>
           <input type="email" placeholder="ton@email.fr" />
-          <div className="submit-btn" onClick={() => alert('Inscription envoyée')}>
+          <button type="button" className="submit-btn" onClick={() => alert('Inscription envoyée')}>
             S'inscrire
-          </div>
+          </button>
         </section>
       </main>
 
