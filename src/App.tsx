@@ -17,11 +17,11 @@ function App() {
 
       <main className="main">
         <article className="article">
-          <div className="title">Pourquoi apprendre TypeScript en 2026</div>
-          <div className="meta">Publié le 3 mars 2026</div>
-          <div className="small-title">Un typage qui rassure</div>
+          <h1 className="title">Pourquoi apprendre TypeScript en 2026</h1>
+          <p className="meta">Publié le 3 mars 2026</p>
+          <h2 className="small-title">Un typage qui rassure</h2>
           <p>TypeScript attrape une classe entière de bugs avant même d'exécuter le code...</p>
-          <div className="small-title">Un écosystème mature</div>
+          <h2 className="small-title">Un écosystème mature</h2>
           <p>La quasi-totalité des librairies JS fournissent désormais leurs types...</p>
         </article>
 
@@ -30,7 +30,7 @@ function App() {
         </div>
 
         <section className="newsletter">
-          <div className="small-title">Reste informé</div>
+          <h2 className="small-title">Reste informé</h2>
           <input type="email" placeholder="ton@email.fr" />
           <div className="submit-btn" onClick={() => alert('Inscription envoyée')}>
             S'inscrire
