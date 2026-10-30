@@ -10,7 +10,7 @@ h1 { color: #2a2a2a; }
 }
 .label { color: #595959; font-size: .85rem; } /* 7.00:1 */
 .value { color: #1a1a1a; font-weight: 600; }
-.hint { color: #bbbbbb; font-size: .9rem; } /* ~1.8:1 */
+.hint { color: #595959; font-size: .9rem; } /* 7.00:1 */
 
 .btn-primary {
   background: #6fa8dc; /* bleu clair */
