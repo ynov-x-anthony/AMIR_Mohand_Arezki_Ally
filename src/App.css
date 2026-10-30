@@ -13,8 +13,8 @@ h1 { color: #2a2a2a; }
 .hint { color: #595959; font-size: .9rem; } /* 7.00:1 */
 
 .btn-primary {
-  background: #6fa8dc; /* bleu clair */
-  color: #ffffff;      /* texte blanc sur bleu clair : ~2.1:1 */
+  background: #1a5fa8; /* bleu plus soutenu */
+  color: #ffffff;      /* 6.47:1 */
   border: none;
   padding: .6rem 1.1rem;
   border-radius: 6px;
