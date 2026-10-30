@@ -6,7 +6,7 @@ muets pour un lecteur d'écran. Applique les patterns ARIA vus dans la quête.
 ## Checklist à cocher
 
 **Accordion** :
-- [ ] `aria-expanded` sur le bouton déclencheur, synchronisé avec l'état
+- [x] `aria-expanded` sur le bouton déclencheur, synchronisé avec l'état
 - [ ] `aria-controls` reliant le bouton au panneau qu'il contrôle
 - [ ] Un `id` unique sur le panneau pour que `aria-controls` pointe dessus
 

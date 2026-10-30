@@ -11,7 +11,11 @@ export default function Accordion({ title, children }: Props) {
 
   return (
     <div className="accordion">
-      <button className="accordion-trigger" onClick={() => setExpanded(!expanded)}>
+      <button
+        className="accordion-trigger"
+        aria-expanded={expanded}
+        onClick={() => setExpanded(!expanded)}
+      >
         {title} {expanded ? '▲' : '▼'}
       </button>
       {expanded && <div className="accordion-panel">{children}</div>}
