@@ -8,7 +8,7 @@ aujourd'hui une utilisation 100% clavier.
 - [x] Retirer le `tabIndex={1}` piégeux (jamais de `tabIndex` positif)
 - [x] Rendre le focus visible (ne pas juste supprimer `outline`, proposer un style de focus clair)
 - [x] Ajouter un vrai **skip link** utilisable (visible au focus) qui saute au formulaire
-- [ ] Implémenter le **focus trap** dans `Modal.tsx` : Tab/Shift+Tab tournent en boucle à l'intérieur de la modale, et le focus revient sur le bouton d'ouverture à la fermeture
+- [x] Implémenter le **focus trap** dans `Modal.tsx` : Tab/Shift+Tab tournent en boucle à l'intérieur de la modale, et le focus revient sur le bouton d'ouverture à la fermeture
 
 ## Démarrer
 
