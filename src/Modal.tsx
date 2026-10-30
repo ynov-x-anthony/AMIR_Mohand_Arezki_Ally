@@ -1,4 +1,4 @@
-import { useId } from 'react'
+import { useEffect, useId } from 'react'
 
 type Props = { onClose: () => void }
 
@@ -7,6 +7,14 @@ type Props = { onClose: () => void }
 
 export default function Modal({ onClose }: Props) {
   const titleId = useId()
+
+  useEffect(() => {
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose()
+    }
+    document.addEventListener('keydown', onKeyDown)
+    return () => document.removeEventListener('keydown', onKeyDown)
+  }, [onClose])
 
   return (
     <div className="modal-overlay">
