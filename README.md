@@ -7,8 +7,8 @@ muets pour un lecteur d'écran. Applique les patterns ARIA vus dans la quête.
 
 **Accordion** :
 - [x] `aria-expanded` sur le bouton déclencheur, synchronisé avec l'état
-- [ ] `aria-controls` reliant le bouton au panneau qu'il contrôle
-- [ ] Un `id` unique sur le panneau pour que `aria-controls` pointe dessus
+- [x] `aria-controls` reliant le bouton au panneau qu'il contrôle
+- [x] Un `id` unique sur le panneau pour que `aria-controls` pointe dessus
 
 **Modal** :
 - [ ] `role="dialog"` et `aria-modal="true"` sur le conteneur de la modale
