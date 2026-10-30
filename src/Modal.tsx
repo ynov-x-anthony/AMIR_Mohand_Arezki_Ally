@@ -6,7 +6,7 @@ type Props = { onClose: () => void }
 export default function Modal({ onClose }: Props) {
   return (
     <div className="modal-overlay">
-      <div className="modal">
+      <div className="modal" role="dialog" aria-modal="true">
         <h2>Informations</h2>
         <p>Ce module couvre l'accessibilité et le SEO.</p>
         <button onClick={onClose}>Fermer</button>

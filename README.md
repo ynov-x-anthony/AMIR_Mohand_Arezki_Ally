@@ -11,7 +11,7 @@ muets pour un lecteur d'écran. Applique les patterns ARIA vus dans la quête.
 - [x] Un `id` unique sur le panneau pour que `aria-controls` pointe dessus
 
 **Modal** :
-- [ ] `role="dialog"` et `aria-modal="true"` sur le conteneur de la modale
+- [x] `role="dialog"` et `aria-modal="true"` sur le conteneur de la modale
 - [ ] `aria-labelledby` pointant vers le `<h2>` du titre
 - [ ] La touche `Échap` ferme la modale (`onKeyDown` sur le document ou la modale)
 
