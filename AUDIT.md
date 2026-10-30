@@ -30,3 +30,19 @@ Les deux violations de repères (`main`, `region`) ne relèvent pas du CSS : ell
 2. **`.btn-primary` (2,52:1)** : c'est l'action principale de la page (« Gérer mon abonnement »). Un bouton illisible bloque la seule chose qu'on vient faire ici.
 3. **`.label` (2,84:1)** : petit texte (13,6 px) qui apparaît sur deux cartes. Il nomme les informations de la page, donc les perdre rend les valeurs difficiles à comprendre.
 4. **`.subtitle` (2,32:1)** : texte d'introduction en 16 px. Gênant, mais le titre `h1` juste au-dessus donne déjà le contexte et rien d'essentiel n'y est caché.
+
+## 4. Après correction
+
+Les 4 couleurs ont été changées dans `src/App.css` (un commit par élément), puis les audits ont été relancés sur la version corrigée.
+
+| Élément | Couleur texte | Couleur fond | Ratio après | Ratio AA requis | Conforme ? |
+|---------|---------------|--------------|-------------|------------------|------------|
+| `.subtitle` | `#5c5c5c` | `#ffffff` | 6,69:1 | 4.5:1 | Oui |
+| `.label` | `#595959` | `#ffffff` | 7,00:1 | 4.5:1 | Oui |
+| `.hint` | `#595959` | `#ffffff` | 7,00:1 | 4.5:1 | Oui |
+| `.btn-primary` | `#ffffff` | `#1a5fa8` | 6,47:1 | 4.5:1 (texte) | Oui |
+
+- **Lighthouse** : score d'accessibilité passé de 90 à **100 / 100**, l'audit `color-contrast` est validé.
+- **axe** : plus aucune violation de contraste. Restent `landmark-one-main` et `region` (pas de `<main>`), qui demandent un changement dans `App.tsx` et pas dans le CSS.
+
+Le style reste cohérent : des gris foncés doux au lieu du noir pur, et un bleu plus soutenu pour le bouton, sans repeindre la page en noir sur blanc.
