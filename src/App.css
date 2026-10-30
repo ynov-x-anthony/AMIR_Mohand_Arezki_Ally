@@ -1,4 +1,6 @@
-*:focus { outline: none; } /* Problème 2 : focus totalement invisible */
+/* focus visible uniquement à la navigation clavier, pas au clic souris */
+:focus-visible { outline: 3px solid #1a56db; outline-offset: 2px; border-radius: 2px; }
+:focus:not(:focus-visible) { outline: none; }
 
 .form { display: flex; flex-direction: column; gap: .4rem; max-width: 320px; margin-top: 1.5rem; }
 .form input, .form select { padding: .5rem; }
