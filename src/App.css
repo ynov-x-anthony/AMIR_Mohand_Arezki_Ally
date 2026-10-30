@@ -2,6 +2,10 @@
 :focus-visible { outline: 3px solid #1a56db; outline-offset: 2px; border-radius: 2px; }
 :focus:not(:focus-visible) { outline: none; }
 
+/* skip link : hors écran, réapparaît au focus clavier */
+.skip-link { position: absolute; left: -9999px; top: 0; }
+.skip-link:focus { position: static; display: inline-block; padding: .4rem .8rem; background: #111; color: white; margin-bottom: 1rem; }
+
 .form { display: flex; flex-direction: column; gap: .4rem; max-width: 320px; margin-top: 1.5rem; }
 .form input, .form select { padding: .5rem; }
 .form button { margin-top: .6rem; padding: .6rem 1rem; }

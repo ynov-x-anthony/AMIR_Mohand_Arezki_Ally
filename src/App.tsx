@@ -10,11 +10,11 @@ function App() {
 
   return (
     <div className="page">
+      <a href="#form" className="skip-link">Aller au formulaire</a>
+
       <h1>Paramètres du compte</h1>
 
-      <a href="#form">Aller au formulaire</a>
-
-      <form id="form" className="form">
+      <form id="form" className="form" tabIndex={-1}>
         <label htmlFor="name">Nom</label>
         <input id="name" type="text" />
 
