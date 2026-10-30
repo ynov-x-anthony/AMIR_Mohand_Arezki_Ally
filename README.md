@@ -12,7 +12,7 @@ muets pour un lecteur d'écran. Applique les patterns ARIA vus dans la quête.
 
 **Modal** :
 - [x] `role="dialog"` et `aria-modal="true"` sur le conteneur de la modale
-- [ ] `aria-labelledby` pointant vers le `<h2>` du titre
+- [x] `aria-labelledby` pointant vers le `<h2>` du titre
 - [ ] La touche `Échap` ferme la modale (`onKeyDown` sur le document ou la modale)
 
 (Le focus trap complet est la quête suivante, concentre-toi sur les rôles/états ARIA et Échap.)
